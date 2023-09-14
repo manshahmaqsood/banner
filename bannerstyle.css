@@ -1,0 +1,105 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: o;
+}
+body{
+    /* font-family: 'Poppins'; */
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #96473e;
+    /* position: fixed; */
+}
+ .logo{
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+    padding-left: 40px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Pacifico';
+    color:#fff;
+    letter-spacing: 4px;
+} 
+nav{
+    float: right;
+    line-height: 100px;
+}
+nav a{
+    text-decoration: none;
+    font-family:  'Poppins', sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: white;
+    padding-right:  50px;
+    margin: 0 1px;
+    font-weight: 500;
+}
+nav a:hover{
+    background-color: white;
+    color: #1d400f;
+
+}
+.banner-area{
+    /* background-image: url(images/bg\ \(2\).jpg); */
+    background-image: url(images/christmas-2992358_1280.jpg);
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+.banner-area::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #130f40;
+    opacity: .5;
+    z-index: -1;
+}
+.banner-area h2{
+    padding-top: 7%;
+    font-size: 80px;
+    color: white;
+}
+.banner-area h2:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+.content-area{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-color: white;
+    top: 650px;
+}
+.content-area h2{
+    font-size: 40px;
+    margin: 0 ;
+    padding-top: 30px;
+    letter-spacing: 4px;
+}
+.content-area p{
+    padding: 2% 0;
+    line-height: 35px;
+    text-align: justify;
+}
